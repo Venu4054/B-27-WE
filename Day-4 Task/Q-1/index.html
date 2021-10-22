@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+    <script type="text/javascript">
+    var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+// For JSON objects of same order we can use "JSON.stringify Method" but for omitting orders wehave to use Loadash methods as stated.
+// If we use JSON.stringify It returns the false statement. 
+console.log( _.isEqual(obj1, obj2) );
+</script>
+    
+</body>
+</html>
