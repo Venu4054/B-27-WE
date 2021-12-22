@@ -1,0 +1,337 @@
+//1.Fix the bugs in below snippet
+//Solution:
+<html lang="en">
+    <head>
+        <title>Document guvi</title>
+                
+        
+    </head>
+    <body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div>
+                Guvi Geek Network
+            </div>
+    </div>
+        </body>
+    </html>
+
+    //2.Try the below one
+//Solution:
+<html lang="en">
+    <head>
+        <title>Document guvi<title>       
+    </head>
+    <body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div>
+                Guvi Geek Network
+            </div>
+    </div>
+        </body>
+    </html>
+
+  // 3.Design a contact us form with all fields as required.
+  //Solution:
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<h1> Contact Form</h1>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name" required>
+    <input type="email" id="input-email" placeholder="Email address" required>
+    <input type="text" id="input-subject" placeholder="Subject" required>
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+</body>
+</html>
+
+4.<!DOCTYPE html>
+<html>
+<body>
+<ul>
+  <li style="list-style-type:disc;">Programming Language
+  <ul>
+  <li >Javascript
+  <ol type="a"><li>Angular</li>
+  <li>React</li>
+    <li>Vue</li></ol>
+    </li>
+  <li>Python
+  <ol type="a"><li>Django Framework</li>
+  <li>Flask Framework</li></ol>
+  <li>Java<ol type="a"><li>Spring</li>
+  <li>Maven</li>
+  <li>Hibernate</li</ol>
+  </li>
+  </ul>
+  </li>
+</ul>
+<ul>
+ <li style="list-style-type:disc;">DataBase
+ <ul><li>MySQL</li>
+  <li>MongoDB</li>
+  <li>Cansandra</li></ul>
+ </li>
+  </ul>
+</body>
+</html>
+
+//5.Create an element that helps you to open the https://google.com in separate new tab.
+//Solution:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>To open link in separate Tab</p><a href="https://google.com/" target="_blank"> Click Here </a> 
+
+</body>
+</html>
+
+//6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+//Solution:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+<form action="">
+  <label for="fname">Employee Type:</label><br>
+ <input type="radio" value="Salaried"><label for="salaried">Salaried</label><br>
+ <input type="radio" value="Own Business"><label for="ownBusiness">Own Business</label><br>
+ <input type="submit" value="Submit"><br>
+</form> 
+</body>
+</html>
+
+//7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+background-color:red;
+color:white;
+text-align:center;
+}
+body{
+border-style: solid;
+font-family:italic;
+}
+input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        background-color: #eee;
+      }
+</style>
+</head>
+<body>
+
+<h1>Yes! I want to subscribe to Mag-O-Zine</h1>
+
+<form action="/action_page.php">
+  <input type="text" placeholder="First Name">
+  <input type="text" placeholder="Last Name" style="margin-left:35px"><br><br>
+  <input type="text" placeholder="Address" size="50"><br><br>
+  <input type="text" placeholder="City">
+  <input type="text" placeholder="State">
+  <input type="text" placeholder="Zip" id="pin" name="pin" size="8"><br><br>
+  <b>Subscribe for:</b><input type="checkbox" id="sub" name="sub" value="sub"><label for="sub"> <b>1 year($19.95)</b></label><input type="checkbox" id="sub" name="sub" value="Car"><label for="sub"> <b>2 year($35)</b></label><br><br>
+  <b>Send me more informatin about:</b><br><br>
+  <input type="checkbox" id="vehicle2" name="Computer-Zine" value="Computer-Zine"><label for="vehicle1"> <b>Computer-Zine</b></label><br><br>
+  <input type="checkbox" id="vehicle2" name="Fishing-Zine" value="Fishing-Zine"><label for="Fishing-Zine"> <b>Fishing-Zine</b></label><br><br>
+  <input type="checkbox" id="Cat-O-Zine" name="Cat-O-Zine" value="Cat-O-Zine"><label for="vehicle1"> <b>Cat-O-Zine</b></label><br><br>
+</form>
+
+
+
+</body>
+</html>
+
+
+//8.Use the table tag to design given image Click here.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align:center;
+}
+h2{
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Health Chart</h2>
+<table style="width:100%">
+  <tr>
+    <th rowspan="2">Firstname</th>
+    <th colspan="2">Fasting Value</th>
+    <th colspan="2">After Eating</th>
+  </tr>
+  <tr>
+    <th>Minimum</th>
+    <th>Maximum</th>
+    <th>2 hurs after Eating</th>
+  </tr>
+  <tr>
+    <th>Healthy</th>  
+    <td>70</td>
+    <td>100</td>
+    <td>Less Than 140</td>
+  </tr>
+  <tr>
+    <th>Pre-Diabetes</th>  
+    <td>101</td>
+    <td>126</td>
+    <td>140 to 200</td>
+  </tr>
+   <tr>
+    <th>Diabetes</th>  
+    <td>More than 126</td>
+    <td>N/A</td>
+    <td>More than 200</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+//9.Write HTML input tags snippet to show default values for all Form elements.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text field</h2>
+<p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="Venu"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="Pelluru"><br><br>
+  <label for="DateOfBirth">Date Of Birth:</label>
+  <input type="date" id="date" name="date" value="1997-06-01"><br><br>
+   <label for="Email">Email:</label>
+  <input type="email" id="email" name="email" value="venupelluru@gmail.com"><br><br>
+  <label for="Email">Email:</label>
+  <input type="email" id="email" name="email" value="venupelluru@gmail.com"><br><br>
+  <input type="color" id="fav" name="fav"
+           value="#e66465">
+    <label for="fav">Fav Color</label><br><br>
+    <label for="avatar">Choose a profile picture:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg"><br><br>
+       <label for="phone">Enter your phone number:</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="6281077729"
+       required><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
+
+//10.In your, HTML page add the below line and Highlight it without using any CSS.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><mark>"HTML & CSS is awesome"<mark></p>
+</body>
+</html>
+
+//11.Create an HTML page, which should contain all types of input elements.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+<label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+<button>Search</button>
+<form method="post">
+  <fieldset>
+    <legend>Form</legend>
+    <input type="image" id="image" alt="Profile Pic"
+       src="/media/examples/login-button.png"><br><br>
+     <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="checkbox" id="Single" name="Single"
+         checked>
+  <label for="Single">Single</label>
+  <input type="checkbox" id="Married" name="Married">
+  <label for="Married">Married</label><br><br>
+  <input type="color" id="Color" name="Color"
+           value="#e66465">
+    <label for="Color">Fav Color</label><br><br>
+    <label for="start">Date Of Birth:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"><br><br>
+       <label for="email">Email:</label>
+
+<input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required><br><br>
+       <label for="phone">Enter your phone number:</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required><br><br>
+       <label for="Age"> Age:</label>
+
+<input type="number" id="Age" name="Age"
+       min="18" max="58" value="24"><br><br>
+       <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required><br><br>
+      <input type="radio" id="field" name="field" value="field"
+         checked>
+  <label for="field">IT</label> <br><br>
+  <label for="url">Enter an https:// URL:</label>
+
+<input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required><br><br>
+       <label for="week">Choose a week in May or June:</label>
+
+<input type="week" name="week" id="camp-week"
+       min="2018-W18" max="2018-W26" required><br><br>
+  <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+
+
+</body>
+</html>
